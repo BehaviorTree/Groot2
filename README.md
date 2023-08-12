@@ -9,6 +9,12 @@ You can use submit issues here: https://github.com/BehaviorTree/Groot2/issues
 
 ## Changelog
 
+### 1.1.1 (2023-08-12)
+
+- [Bugfix]: fixed crash when inserting a node during the Creation of a Node connection
+- [Bugfix]: fixed crash when pressing the button "Play" on an empty Log Replay
+- [License]: when activating the PRO license, user is asket to agree with the EULA.
+
 ### 1.1.0 (2023-07-23)
 - [Visualization]: improved layout for Pre/Post Conditions boxes.
 - [Editor]: Adding the ability to save XML files using the same syntax used by Groot1 (disabled by default in Preferences).
