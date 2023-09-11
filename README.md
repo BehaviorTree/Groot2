@@ -9,6 +9,12 @@ You can use submit issues here: https://github.com/BehaviorTree/Groot2/issues
 
 ## Changelog
 
+### 1.2.0 (2023-09-11)
+- [Bugfix]: fixed crash when renaming a Subtree
+- [Bugfix]: Prevent Model editor when double clicking a Subtree.
+- [LogReplay]: add filter-in/filter-out to the Transitions table.
+- [LogReplay]: add the ability to export the result of the query into a JSON file
+
 ### 1.1.1 (2023-08-12)
 
 - [Bugfix]: fixed crash when inserting a node during the Creation of a Node connection
