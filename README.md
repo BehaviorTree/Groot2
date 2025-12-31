@@ -9,6 +9,20 @@ You can use submit issues here: https://github.com/BehaviorTree/Groot2/issues
 
 ## Changelog
 
+  ### 1.7.0 (2025-12-14)
+ 
+ **Changes since version 1.6.1**.
+ 
+ - [Editor]: Some users reported difficulties with empty ports creating attributes in the XML that were confused with empty strings. To prevent this issue, we added the following option in Settings
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/ba8736af-4d7f-4e46-8015-44f93054213d" />
+
+- [Monitor]: some users reported that the "atio-zoom" when a breakpoint is reached is annoying, especially for large trees. For this reason, we added a check box to disable the autozoom and some convenient
+  (intentionally redundant) buttons to select **Continue** / **SUCCESS** / **FAILURE** from the left panel.
+
+<img width="1200" alt="image" src="https://github.com/user-attachments/assets/501c602d-af53-4289-99c9-6aba2cebe605" />
+  
+
 ### 1.2.0 (2023-09-11)
 - [Bugfix]: fixed crash when renaming a Subtree
 - [Bugfix]: Prevent Model editor when double clicking a Subtree.
