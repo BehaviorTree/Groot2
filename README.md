@@ -9,6 +9,23 @@ You can use submit issues here: https://github.com/BehaviorTree/Groot2/issues
 
 ## Changelog
 
+  ### 1.7.1 (2026-01-04)
+
+**New feature**
+   
+   A wrong port name is now displayed with red background, and the ToolTip is more visible
+
+   <img width="500" alt="image" src="https://github.com/user-attachments/assets/75df5678-54b8-4737-b1b2-fe6b5af7de83" />
+
+
+  - [Bugfix]: fix launch in Windows when another Qt version is installed in the system [issue 76](https://github.com/BehaviorTree/Groot2/issues/76) 
+  - [Bugfix]: AppImage should be compatible again with Ubuntu 20.04. [issue 75](https://github.com/BehaviorTree/Groot2/issues/75)
+  - [Bugfix]: When a licence is not activated, stop trying to reconnect and showing popup [issue 73](https://github.com/BehaviorTree/Groot2/issues/73)
+  - [Bugfix]: adding node in Monitor View is not allowed [issue 71](https://github.com/BehaviorTree/Groot2/issues/71)
+  - [Bugfix]: Do not reset viewpoint when changing tabs or program [issue 70](https://github.com/BehaviorTree/Groot2/issues/70)
+  - [Bugfix]: workaround to real-time monitor and log viewer incorrectly displays subtree children with the same name [issue 56](https://github.com/BehaviorTree/Groot2/issues/56)
+  - [Bugfix]: Minor UI icon bug [issue 41](https://github.com/BehaviorTree/Groot2/issues/41)
+
   ### 1.7.0 (2025-12-14)
  
  **Changes since version 1.6.1**.
