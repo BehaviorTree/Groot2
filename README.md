@@ -9,6 +9,39 @@ You can use submit issues here: https://github.com/BehaviorTree/Groot2/issues
 
 ## Changelog
 
+  ### 1.8.0 (2026-01-18)                                                                                                            
+                                                                                                                                                                                                                                                                             
+  - [New feature]: Tree Hierarchy Analysis. Groot2 now automatically detects problematic tree structures:                                                                         
+       - Self-referencing trees - warns when a tree's SubTree node references itself (would cause infinite recursion)                        
+       - Circular dependencies - detects cycles where Tree A → Tree B → Tree A                                                               
+       - Warning banners appear directly in the graph view for affected trees                                                                
+       - Trees with hierarchy errors are highlighted in red in the project tree                                                              
+                                                                                                                                        
+  - [New feature]:Keyboard Shortcuts Dialog (CTRL+H)                                                                                                             
+       - Ctrl+S - Save current file in Editor mode (new!)                                                                                    
+       - Ctrl+Z/Y - Undo/Redo                                                                                                                
+       - And many more documented in the dialog                                                                                              
+                                                                                                                                        
+  - [New feature]: new "Darker" Theme and improved custom theme editor. See preferences.                                                                                                                
+  - [New feature]: trees with only one tree now auto-open that tree correctly
+                                                                                                                      
+  - [Improved]: the welcome screens for Editor, Monitor, and Replay modes have been redesigned for better clarity and usability.
+  - [Improved]: license status changes (expired, suspended, revoked) now show clear user dialogs.                                                        
+  - [Improved]: the License tab in Preferences now shows the specific reason when a license becomes invalid.
+  - [Improved]: ovable Model Editor. The Model Editor dialog can now be dragged and repositioned                    
+                                                                                                                                        
+  - [Bugfix]: fixed crash when viewing arrays in Blackboard - The Monitor's blackboard widget no longer crashes when displaying complex types like
+   vectors or arrays (fixes #55, #77). Arrays now display properly with indexed keys.                                                                                                                                                                   
+  - [Bugfix]: fixed thread safety issues in Monitor mode - The ZMQ communication manager no longer has race conditions that could cause sporadic  
+  crashes.                                                                                                                              
+                                                                                                                                        
+  - [Bugfix]: Fixed SubTree expansion failing to update the view state correctly                                                                  
+  - [Bugfix]: Fixed port changes not updating the tree state properly (issue #251)                                                                
+  - [Bugfix]: Fixed error tooltips stealing keyboard focus                                                                                        
+  - [Bugfix]: Fixed opening files via --file command line when the previous mode was not Editor                                                   
+  - [Bugfix]: Fixed license validation for floating licenses.
+  - [Bugfix]: Opening a single XML file no longer prompts to save the previous project                                                                                     
+
   ### 1.7.1 (2026-01-04)
 
 **New feature**
