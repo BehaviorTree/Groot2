@@ -32,10 +32,7 @@ You can use submit issues here: https://github.com/BehaviorTree/Groot2/issues
                                                                                                                                         
   - [Bugfix]: fixed crash when viewing arrays in Blackboard - The Monitor's blackboard widget no longer crashes when displaying complex types like
    vectors or arrays (fixes #55, #77). Arrays now display properly with indexed keys.                                                                                                                                                                   
-  - [Bugfix]: fixed thread safety issues in Monitor mode - The ZMQ communication manager no longer has race conditions that could cause sporadic  
-  crashes.                                                                                                                              
-                                                                                                                                        
-  - [Bugfix]: Fixed SubTree expansion failing to update the view state correctly                                                                  
+  - [Bugfix]: fixed thread safety issues in Monitor mode - The ZMQ communication manager no longer has race conditions that could cause sporadic crashes.                                                                                                                                                        - [Bugfix]: Fixed SubTree expansion failing to update the view state correctly                                                                  
   - [Bugfix]: Fixed port changes not updating the tree state properly (issue #251)                                                                
   - [Bugfix]: Fixed error tooltips stealing keyboard focus                                                                                        
   - [Bugfix]: Fixed opening files via --file command line when the previous mode was not Editor                                                   
