@@ -8,7 +8,11 @@ and (in the future) tutorials and learning material.
 You can use submit issues here: https://github.com/BehaviorTree/Groot2/issues
 
 ## Changelog
-
+  ### 1.8.1 (2026-01-18)  
+  - [Bugfix]: license not initialized correctly
+  - [Change]: disable port validation in Preferences
+  - [Change]: add truncated link to "Recent project" button.
+    
   ### 1.8.0 (2026-01-18)                                                                                                            
                                                                                                                                                                                                                                                                              
   - [New feature]: Tree Hierarchy Analysis. Groot2 now automatically detects problematic tree structures:                                                                         
